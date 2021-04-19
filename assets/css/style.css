@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0px;
   /* background-color: #DAAFA1; */
   background-color: white;
@@ -65,7 +65,7 @@ header {
 
 #title-large,
 #nav-brand {
-  font-family: "Zen Dots", cursive;
+  font-family: 'Molle', cursive;
 }
 
 #titles {
@@ -84,10 +84,13 @@ header {
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
+  font-size: 2em;
 }
 
 #title-large {
   padding-bottom: 30px;
+  font-size: 5em;
+  text-align: center;
 }
 
 /* MAIN CONTENT */
@@ -177,3 +180,30 @@ footer{
     background-attachment: scroll;
   }
 }
+
+@media screen and (max-width: 1200px) {
+    #title-large {
+      font-size: 4em;
+    }
+}
+
+  @media screen and (max-width: 900px) {
+    #title-large {
+      font-size: 3em;
+    }
+    #title-small {
+        font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    #title-large {
+      font-size: 2.5em;
+    }
+    #title-small {
+        font-size: 1em;
+    }
+  }
+
+
+
